@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="DeleteCell" rowHeight="34" id="KGk-i7-Jjw" customClass="DeleteCell" customModule="FriendsField" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="343" height="34"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="343" height="34"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ajF-Yp-fVi">
+                        <rect key="frame" x="5" y="5" width="333" height="24"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eml-4a-5Tf">
+                                <rect key="frame" x="5" y="2" width="326" height="20"/>
+                                <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.35294117650000001" green="0.7843137255" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Eml-4a-5Tf" firstAttribute="leading" secondItem="ajF-Yp-fVi" secondAttribute="leading" constant="5" id="5si-ft-Mf8"/>
+                            <constraint firstItem="Eml-4a-5Tf" firstAttribute="top" secondItem="ajF-Yp-fVi" secondAttribute="top" constant="2" id="N92-ca-6kK"/>
+                            <constraint firstAttribute="bottom" secondItem="Eml-4a-5Tf" secondAttribute="bottom" constant="2" id="lcl-kN-mHl"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="24" id="vpI-xG-d0v"/>
+                            <constraint firstAttribute="trailing" secondItem="Eml-4a-5Tf" secondAttribute="trailing" constant="2" id="yYY-FL-W7r"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiu">
+                                <real key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="ajF-Yp-fVi" secondAttribute="trailing" constant="5" id="BwA-hI-CF5"/>
+                    <constraint firstItem="ajF-Yp-fVi" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="GFA-xT-BKX"/>
+                    <constraint firstAttribute="bottom" secondItem="ajF-Yp-fVi" secondAttribute="bottom" constant="5" id="mVV-uh-Tvf"/>
+                    <constraint firstItem="ajF-Yp-fVi" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="qok-By-pi1"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="lbl_Text" destination="Eml-4a-5Tf" id="oxR-MU-TUD"/>
+            </connections>
+            <point key="canvasLocation" x="148.55072463768118" y="99.107142857142847"/>
+        </tableViewCell>
+    </objects>
+</document>

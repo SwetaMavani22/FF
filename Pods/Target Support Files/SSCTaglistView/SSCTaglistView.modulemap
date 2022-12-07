@@ -1,0 +1,6 @@
+framework module SSCTaglistView {
+  umbrella header "SSCTaglistView-umbrella.h"
+
+  export *
+  module * { export * }
+}

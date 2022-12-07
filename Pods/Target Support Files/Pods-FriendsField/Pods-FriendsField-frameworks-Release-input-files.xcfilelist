@@ -1,0 +1,19 @@
+${PODS_ROOT}/Target Support Files/Pods-FriendsField/Pods-FriendsField-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework
+${BUILT_PRODUCTS_DIR}/AWSS3/AWSS3.framework
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/BubblePictures/BubblePictures.framework
+${BUILT_PRODUCTS_DIR}/ExpyTableView/ExpyTableView.framework
+${BUILT_PRODUCTS_DIR}/FlagPhoneNumber/FlagPhoneNumber.framework
+${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework
+${BUILT_PRODUCTS_DIR}/JXSegmentedView/JXSegmentedView.framework
+${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
+${BUILT_PRODUCTS_DIR}/OTPFieldView/OTPFieldView.framework
+${BUILT_PRODUCTS_DIR}/RangeSeekSlider/RangeSeekSlider.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/SSCTaglistView/SSCTaglistView.framework
+${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework
+${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/PixelSDK/PixelSDK.framework/PixelSDK
+${PODS_XCFRAMEWORKS_BUILD_DIR}/PixelSDK-GPUImage3/GPUImage.framework/GPUImage
